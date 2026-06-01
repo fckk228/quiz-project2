@@ -1,0 +1,88 @@
+.MainDiv{
+    position: absolute;
+    height:700px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 250px;
+    background-color: rgb(234, 202, 218);
+    font-size: 20px;
+    visibility: visible;
+    padding-top: 20px;
+}
+.dogPhoto {
+    margin-top: 50px;
+    width: 180px;
+    height: 290px;
+    margin-left:49px;
+    object-fit: cover;
+
+}
+.questionDiv{
+    margin-left:320px;
+}
+.question{
+    margin-left: 28px;
+}
+.answerDiv{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.ResultDiv{
+    position: absolute;
+    height: 700px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 250px;
+    background-color:beige;
+    font-size: 20px;
+    visibility: hidden;
+    align-items:center;
+    
+}
+.Frame{
+    position: absolute;
+    margin-top: 30px;
+    width: 260px;
+    height: 350px; 
+}
+button {
+  all: unset;
+  cursor: pointer;
+  width: 200px;
+  background-color: rgb(182, 142, 165);
+  height: 30px;
+  margin-top: 3px;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 15px;
+  border:rgb(161, 126, 146) 2px solid;
+}
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom:5px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f3f3f3;
+}
+
+progress::-webkit-progress-value {
+  background: linear-gradient(to right, #4caf50, #81c784);
+  border-radius: 10px;
+}
+
+.questionHead{
+    margin-left:320px;
+}
+
+.ResultDivInner{
+    margin-left:320px;
+    margin-top: 50px;
+
+}
